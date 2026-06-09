@@ -1,0 +1,31 @@
+.timezone-container {
+    max-width : 1200px;
+    margin : 20px auto 0 auto;
+    padding : 0 20px;
+    text-align : right;
+    font-family : 'Agency FB', sans-serif;
+}
+
+.btn-tz {
+    background-color : #1e1e1e;
+    color : #ffffff;
+    border : 1px solid var(--stage-color, #00c6);
+    padding : 8px 16px;
+    border-radius : 4px;
+    cursor : pointer;
+    font-size : 15px;
+    font-weight : bold;
+    font-family : 'Bradley Hand ITC', sans-serif;
+    transition : all 0.2s ease;
+}
+
+.btn-tz:hover {
+    background-color : var(--stage-color, #00c6);
+    color : #121212;
+}
+
+.btn-tz.active {
+    background-color : var(--stage-color, #00c6);
+    color : #121212;
+    box-shadow : 0 0 10px var(--stage-glow, #00c6);;
+}
